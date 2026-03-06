@@ -1,6 +1,6 @@
 # Project Overview
-This is a self initiated data analytics and machine learning project I've undertaken that focuses on xx. It combines hotel revenue forecasting, guest sentiment analysis and tourist market segmentation to provide actionable intelligence for Singapore's Hospitality industry.
-This project is built entirely built using Singapore-sourced data from data gov and real TripAdvisor hotel reviews from Kaggle, and addresses key industry problems through simple data analytics and machine learning
+This is a self initiated data analytics and machine learning project I've undertaken that focuses on Singapore's hospitality and tourism industry. It combines hotel revenue forecasting, guest sentiment analysis and tourist market segmentation to provide actionable intelligence for Singapore's Hospitality industry.
+This project is built entirely built using Singapore-sourced data from data gov and real TripAdvisor hotel reviews from Kaggle, and addresses key industry problems through data analytics and machine learning (Supervised and Unsupervised Learning.) This repository contains the report with the full analysis as well as the code
 
 # Industry Problems
 Key challenges faced by Singapore's Hospitality Industry that I've identified:
@@ -16,7 +16,7 @@ Key challenges faced by Singapore's Hospitality Industry that I've identified:
 
 # How to run on vscode
 1. Clone and Setup
-- git clone https://github.com/YOUR_USERNAME/smartstay-sg.git
+- git clone
 - cd smartstay-sg
 - pip install -r requirements.txt
 
@@ -31,10 +31,10 @@ Key challenges faced by Singapore's Hospitality Industry that I've identified:
 - "tourism_receipts_qtr.csv": "https://data.gov.sg/datasets/d_248d4c6574b5ac87cd31851ed3f697d6/view"
 
 3. Run Notebooks in order
-a. Setup_and_Download.py — installs dependencies and downloads the raw data
-b. Load_and_Clean.py — loads and cleans the raw data
-c. Merge_and_Features.py — merges datasets and engineers features (creates the country profiles, lag variables)
-d. Clustering.py — runs K-Means segmentation on the tourist market data
-e. Forecasting.py — trains and evaluates the Ridge/XGBoost/ arrival forecast models
-f. Sentiment.py — runs TF-IDF vectorisation, trains classifiers, LDA topic modelling, and pain point analysis
-g. Launch_Dashboard.py — launches the final interactive dashboard 
+- Setup_and_Download.py — installs dependencies and downloads the raw data
+- Load_and_Clean.py — loads and cleans the raw data
+- Merge_and_Features.py — merges datasets and engineers features (creates the country profiles, lag variables)
+- Clustering.py — runs K-Means segmentation on the tourist market data
+- Forecasting.py — trains and evaluates the Ridge/XGBoost/ arrival forecast models
+- Sentiment.py — runs TF-IDF vectorisation, trains classifiers, LDA topic modelling, and pain point analysis
+- Launch_Dashboard.py — launches the final interactive dashboard 
