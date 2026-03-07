@@ -1,6 +1,6 @@
 # Project Overview
 This is a self initiated data analytics and machine learning project I've undertaken that focuses on Singapore's hospitality and tourism industry. It combines hotel revenue forecasting, guest sentiment analysis and tourist market segmentation to provide actionable intelligence for Singapore's Hospitality industry.
-This project is built entirely built using Singapore-sourced data from data gov and real TripAdvisor hotel reviews from Kaggle, and addresses key industry problems through data analytics and machine learning (Supervised and Unsupervised Learning.) I've also uploaded the report on my analysis into his repository as well, you can refer to Natalie_SmartStayReport.docx for the full project analysis.
+This project is built entirely built using Singapore-sourced data from data gov and real TripAdvisor hotel reviews from Kaggle, and addresses key industry problems through data analytics and machine learning (Supervised and Unsupervised Learning.) I've also uploaded the report on my analysis into his repository as well, you can download Natalie_SmartStayReport.docx for the full project analysis on word doc (don't open it using vscode)
 
 # Industry Problems
 Key challenges faced by Singapore's Hospitality Industry that I've identified:
