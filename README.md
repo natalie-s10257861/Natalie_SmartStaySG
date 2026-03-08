@@ -9,10 +9,9 @@ Key challenges faced by Singapore's Hospitality Industry that I've identified:
 3. Untargeted marketing: tourist source markets have vastly different travel behaviours, yet often receive the same marketing approach
 
 # Composition of my project
-1. Hotel Revenue & Occupancy Forecasting
-2. Guest Sentiment Analysis & Service Intelligence
-3. Tourist Segment Clustering & Targeting
-4. Dashboards
+Two main pipelines were being used:
+1. Tourist Market Segmentation & Forecasting: clustering countries and predicting visitor arrivals
+2. Hotel Review NLP Analysis: sentiment classification and topic modeling on 60,680 reviews
 
 # How to run on vscode
 1. Clone and Setup
